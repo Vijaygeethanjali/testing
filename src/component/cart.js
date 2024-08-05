@@ -5,6 +5,7 @@ export default function Cart(){
     return (
         <div>
         <center>cart items {id}</center>
+        <h1>vijay</h1>
         </div>
     )
 }
