@@ -10,12 +10,12 @@ function App() {
     <BrowserRouter>
     <div className="App">
       <button><Link to='/'>Home</Link></button>
-      <button><Link to='/cart'>Cart</Link></button>
+      <button><Link to='/cart/8'>Cart</Link></button>
       <button><Link to='/user'>User</Link></button>
     </div>
     <Routes>
       <Route path='/' Component={Home}/>
-      <Route path='/cart' Component={Cart}/>
+      <Route path='/cart/:id' Component={Cart}/>
       <Route path='/user' Component={User}/>
     </Routes>
     </BrowserRouter>

@@ -1,7 +1,10 @@
+import {useParams} from 'react-router-dom'
+
 export default function Cart(){
+    const {id}= useParams()
     return (
         <div>
-        <center>cart items</center>
+        <center>cart items {id}</center>
         </div>
     )
 }
